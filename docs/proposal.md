@@ -12,7 +12,7 @@ Author: Rutuja Karad <br>
 </p>
 
 
-## About the project
+## Background
 The project focuses on detecting fake news, addressing the urgent need for reliable information in today's digital landscape. Fake news can distort public opinion and threaten societal harmony. Thus, the aim is to develop an effective tool for automated fake news detection to enhance information credibility and combat misinformation.
 
 In an age where false information can disrupt societies and even impact national security, our work seeks to empower individuals and organizations to make more informed decisions.
@@ -22,7 +22,7 @@ This project aims to answer research inquiries including but not limited to eval
 ## Goal
 This project aims to use natural language processing techniques and machine learning algorithms to classify whether a piece of news is fake or real.<br>
 
-## Dataset
+## Data
 Source: <a href="https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset">Link</a><br>
 The dataset is a collection of news articles collected in the span of 2015-2017.
 
