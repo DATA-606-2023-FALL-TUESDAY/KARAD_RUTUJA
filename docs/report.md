@@ -68,8 +68,9 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 - Fake.csv <br>
   ![fakeinfo](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/bc0229b8-62ff-46b7-8c46-1a31c2aa3132)
 <br><br>
-![realinfo](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/ee79b30f-8a68-4ede-9ad0-d2077f9b3449)
 - Real.csv: <br>
+![realinfo](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/ee79b30f-8a68-4ede-9ad0-d2077f9b3449)
+
   
 
 3. **Concatenation of Datasets:** <br>
