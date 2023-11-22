@@ -1,4 +1,4 @@
-![timeline](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/0615a091-f935-415c-a0b6-ba23a103e6fa)![nullvalues](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/3cee12af-320e-4ec2-9202-ebc96641d76d)# FAKE NEWS DETECTION<br><br>
+# FAKE NEWS DETECTION<br><br>
 
 Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaojie (Jay) Wang<br>
 Author: Rutuja Karad <br>
