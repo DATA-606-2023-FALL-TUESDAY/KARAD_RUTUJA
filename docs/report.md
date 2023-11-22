@@ -59,7 +59,7 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 ## 6. Preprocessing and Data Inspection - Part I
 
 1. **Checking for Null Values:**
-   ![Insert image here](nullvalues.png)
+   ![Insert image here](https://drive.google.com/file/d/1iTUhKud6-P3dECMeBvTfs5Im70Sa9Dh_/view?usp=drive_link)
    The dataset (combined) does not contain any null values.
 
 2. **Dataset Information:**
