@@ -137,6 +137,21 @@ Thus, from the above graphs, we can see that the fake texts contain more charact
 
    - From the word cloud, we can observe that the most commonly used words in fake news articles seem to be "said", "Donald Trump", "American", "think", "that", "Hillary Clinton", "will", "say", "might", "want", "country", "left".
    - Most of the above words can be used to represent suggestion and supposition in speech.
+  
+7. **Bi-Gram Analysis:**
+   
+   - Donald Trump is a common topic in both fake and true news titles, but the context or surrounding words differ.
+   - White House is a prevalent bi-gram in both categories, indicating that many articles (whether fake or true) focus on events or happenings related to the White House.
+   - Some terms like Fox News, Hillary Clinton, and Bernie Sanders are more frequent in fake news titles.
+   - In true news titles, there's a broader range of topics covered, such as North Korea, Islamic State, Supreme Court, and Puerto Rico.
+
+8. **Tri-Gram Analysis:**
+
+   - "pic twitter com": This tri-gram frequently occurs in the fake news dataset. It suggests that many fake news articles might include Twitter image links.
+   - "21st century wire" and "news 21st century": These phrases suggest that there might be recurring sources or mentions in the fake news dataset.
+   - "black lives matter": This topic seems to be prevalent in the fake news dataset.
+   - Common Phrases: Phrases like "president donald trump" and "president barack obama" are common in both datasets. However, their contexts might differ.
+   - In the true news dataset, there are mentions of specific sources like "reuters president donald" and "new york reuters", which might indicate the origin or reference of the news
 
 ## 8. Preprocessing - Part II (NLP):
 
