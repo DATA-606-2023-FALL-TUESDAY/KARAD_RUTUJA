@@ -1,4 +1,4 @@
-# FAKE NEWS DETECTION<br><br>
+![timeline](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/0615a091-f935-415c-a0b6-ba23a103e6fa)![nullvalues](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/3cee12af-320e-4ec2-9202-ebc96641d76d)# FAKE NEWS DETECTION<br><br>
 
 Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaojie (Jay) Wang<br>
 Author: Rutuja Karad <br>
@@ -59,20 +59,24 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 ## 6. Preprocessing and Data Inspection - Part I
 
 1. **Checking for Null Values:**
-   ![Insert image here](https://drive.google.com/file/d/1iTUhKud6-P3dECMeBvTfs5Im70Sa9Dh_/view?usp=drive_link)
+   ![nullvalues](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/37034af6-1623-4107-bdcb-cd776f07accc)
+
    The dataset (combined) does not contain any null values.
 
-2. **Dataset Information:**
+3. **Dataset Information:**
 
 - Fake.csv <br>
-  ![Insert image here](fakeinfo.png)<br><br>
+  ![fakeinfo](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/bc0229b8-62ff-46b7-8c46-1a31c2aa3132)
+<br><br>
+![realinfo](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/ee79b30f-8a68-4ede-9ad0-d2077f9b3449)
 - Real.csv: <br>
-  ![Insert image here](realinfo.png)
+  
 
 3. **Concatenation of Datasets:** <br>
    The dataset is divided into two CSV files - `Fake.csv` and `Real.csv`. It is necessary to combine them and add a target variable - 0 for Fake News and 1 for True/Real News.
 
-![Insert image here](combined.png)
+![combined](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/8197d8ff-e587-4345-a782-2fdab10785bf)
+
 
 4. **Text Cleaning:**
    - **Removed Noise**: Stripping text of formatting (e.g., HTML tags, special characters, emojis).
@@ -85,7 +89,8 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 
 1. **Distribution of Fake and Real News:**
 
-   ![Insert image here](piechart.png)
+   ![piechart](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/79c13272-2b17-498c-b228-d832bcd93701)
+
 
 - From the distribution of the total articles, 44.7% is real news and 55.3% is fake news. The distribution is pretty much equal.
 - This will be advantageous in training as there is less chance of overfitting and high chances of good generalization.
@@ -94,9 +99,7 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 
 2. **Timeline Visualization - Fake and Real News Articles Over Time:**
 
-<p align="center">
-  <img src="timeline.png" />
-</p>
+![timeline](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/4740798e-dc2b-4b00-9a2c-e71ed63f4820)
 
 - The above graph describes the relation between the number of articles and the date when they were released.
 - In general, there are a lot of fake articles compared to true articles, but we can observe a sharp spike during the 2016 election period.
@@ -105,8 +108,7 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
   <br>
 
 3. **Analyzing the Distribution of Article Lengths by Category:**
-   ![Insert image here](distbylengths.png)
-
+   ![distbylengths](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/bc3b5724-6a3a-4bfd-9f4c-4d3dd1b2d334)
    - An important trend can be identified in this graph: fake news articles are much more verbose.
    - A study by Hanock and Dunham found that in written statements, if a person is lying or is not sure what they are saying is true, they often embellish the details of their conversation [1].
    - From the above graphs, we can see that the fake texts contain more characters and more words per article thus reinforcing the hypothesis laid down by the previous visualization.
@@ -115,7 +117,7 @@ The input variables will be 'title' and 'text'. The output variable will be a ca
 
 |          Words          |          Characters           |
 | :---------------------: | :---------------------------: |
-| ![](wordcomparison.png) | ![](characterscomparison.png) |
+| ![wordcomparison](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/2e741d33-406e-4569-b9d7-605ac571f065) | ![characterscomparison](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/16e09369-afe1-4ed6-9ba8-63d60ae00eea) |
 
 - From the above visualization, we can conclude that articles categorized as true have a higher average word length than articles categorized as fake.
 - Generally, when a person is falsifying statements, they will make use of articles, prepositions abundantly [1].
@@ -129,7 +131,8 @@ Thus, from the above graphs, we can see that the fake texts contain more charact
 <br>
 
 6. **Word Cloud:**<br><br>
-   ![Insert image here](wordcloud.png)
+   
+   ![wordcloud](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/6087bf2b-853f-4b53-b966-38504d5a1dc7)
 
    - From the word cloud, we can observe that the most commonly used words in fake news articles seem to be "said", "Donald Trump", "American", "think", "that", "Hillary Clinton", "will", "say", "might", "want", "country", "left".
    - Most of the above words can be used to represent suggestion and supposition in speech.
@@ -170,7 +173,8 @@ The classifiers selected are: Random Forest, Stochastic Gradien Descent, Linear 
 
 - Logistic Regression, Linear SVM, and Stochastic Gradient Descent have similar performance when trained on Word2Vec embeddings. Random Forest, although slightly more computationally intensive, offers robustness and also performs exceptionally well with Word2Vec.
 
-  ![Insert image here](model.png)
+  ![model](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/17b7766e-c20c-42cd-a245-477cee1896aa)
+
 
 - Given the high F1 scores and computational efficiency, Logistic Regression with Word2Vec embeddings stands out as a top candidate. Random Forest with Word2Vec is also a strong contender, offering robustness and adaptability to potential changes in the type of data.
 
@@ -180,7 +184,8 @@ Logistic Regression was chosen as the final classifier.
 
 Different values of "C" were tested with L2 Penalty. Best values obtained - 10, 100. The best model was saved for later use.
 
-![Insert image here](gridsearch.png)
+![gridsearch](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/79f799b5-8717-42f2-90cf-0ce9793cc74b)
+
 
 ## 10. References
 
