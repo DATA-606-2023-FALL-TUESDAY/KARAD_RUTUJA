@@ -177,13 +177,32 @@ The following preprocessing steps required in NLP were performed.
 
 ## 9. Model Training:
 
-#### 9 a. Feature Extraction:
+#### 9 a. Model Training Setup:
+- As it is a classification task the models selected are classifier model: Random Forest, Stochastic Gradien Descent, Linear SVM, and Logistic Regression.
+- Google Colab was used as development environment for the ease of package imports.
+- 20% of the dataset was used for testing and 10% was used for validation with a fixed random state to generate the same split in case environment stops or fails.
+- In assessing model performance, the F1 score, which balances precision and recall, proved to be a more reliable metric than accuracy, particularly in scenarios with class imbalances and where both false positives and false negatives carry significant implications. 
+
+Packages used:
+|    # | PACKAGES    | 
+|    1 | Numpy       | 
+|    2 | Pandas  | 
+|    3 | Seaborn    | 
+|    4 | Plotly    | 
+|    5 | Matplotlib    | 
+|    6 | Scikit Learn    | 
+|    7 | NLTK    | 
+|    8 | Gensim    | 
+|    9 | Joblib    | 
+|    10 | Streamlit    | 
+
+#### 9 b. Feature Extraction:
 
 Feature extraction was done from the text using CountVectorizer and TfidfVectorizer. The TF-IDF Vectorizer was used for POS Tags. Word2Vec features were used as is because they were in a matrix format.
 <br><br>
 The classifiers selected are: Random Forest, Stochastic Gradien Descent, Linear SVM, and Logistic Regression. There were two approaches - POS Tagging and Word2Vec embeddings. All the classifiers were first trained after performing POS Tagging on the preprocessed data and then after performing Word2Vec Embeddings on the preprocessed data.
 
-#### 9 b. Comparison of Model Training:
+#### 9 c. Comparison of Model Training:
 
 - Word2Vec embeddings consistently outperform POS tags across all classifiers. This indicates the rich semantic information captured by Word2Vec, which is crucial for this fake news classification task.
 
@@ -196,11 +215,24 @@ The classifiers selected are: Random Forest, Stochastic Gradien Descent, Linear 
 
 Logistic Regression was chosen as the final classifier.
 
-#### 9 c. Hyperparameter Optimization:
+#### 9 d. Hyperparameter Optimization:
 
 Different values of "C" were tested with L2 Penalty. Best values obtained - 10, 100. The best model was saved for later use.
 
 ![gridsearch](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/79f799b5-8717-42f2-90cf-0ce9793cc74b)
+
+## 6. Application of the Trained Model
+Streamlit was used to create a web app.Streamlit, a library that facilitates the integration of HTML and Python, was utilized for web app development. This choice streamlined the process of creating a user-friendly interface. The application features a text input field and a submit button, allowing users to input text for analysis. Upon submission, the model processes the input and displays the probability of the text being real or fake. This functionality not only makes the model accessible to users but also provides immediate, interactive feedback on the likelihood of news authenticity, showcasing the practical application of  machine learning model in a real-world setting.
+
+
+## 7. Conclusion
+
+- Summarize your work and its potetial application
+- Point out the limitations of your work
+- Lessons learned 
+- Talk about future research direction
+
+
 
 
 ## 10. References
