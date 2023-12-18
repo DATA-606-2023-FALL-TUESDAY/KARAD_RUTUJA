@@ -222,8 +222,15 @@ Different values of "C" were tested with L2 Penalty. Best values obtained - 10, 
 ![gridsearch](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/79f799b5-8717-42f2-90cf-0ce9793cc74b)
 
 ## 10. Application of the Trained Model
-Streamlit was used to create a web app.Streamlit, a library that facilitates the integration of HTML and Python, was utilized for web app development. This choice streamlined the process of creating a user-friendly interface. The application features a text input field and a submit button, allowing users to input text for analysis. Upon submission, the model processes the input and displays the probability of the text being real or fake. This functionality not only makes the model accessible to users but also provides immediate, interactive feedback on the likelihood of news authenticity, showcasing the practical application of  machine learning model in a real-world setting.
+Streamlit was used to create a web app.Streamlit, a library that facilitates the integration of HTML and Python, was utilized for web app development. This choice streamlined the process of creating a user-friendly interface. The application features a text input field and a submit button, allowing users to input text for analysis. Upon submission, the model processes the input and displays the probability of the text being real or fake. This functionality not only makes the model accessible to users but also provides immediate, interactive feedback on the likelihood of news authenticity, showcasing the practical application of  machine learning model in a real-world setting. 
 
+**Real News:**
+
+![REALNEWS](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/e0318476-f2be-4a4b-a8d0-ada8e111b1e1)
+
+**Fake News:**
+
+![Fakenews](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/ce996f55-f77e-4c3d-bd20-c92a566e4953)
 
 ## 11. Conclusion
 
