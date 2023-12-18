@@ -1,17 +1,15 @@
-# FAKE NEWS DETECTION<br><br>
+# DATA606 - Capstone Project
 
-Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaojie (Jay) Wang<br>
-Author: Rutuja Karad <br>
-<a href="https://github.com/RUTUJA8599">Github</a><br>
-<a href="https://www.linkedin.com/in/rutuja-karad/">LinkedIn</a><br>
-<a href="https://www.youtube.com/channel/UCy_nRgyLsoAWP6w29-_n7zg">YouTube</a><br>
-<a href="https://docs.google.com/presentation/d/1OhL_sn4j4BHtAmBepcAW6N8YUbZaW_Hro7BVr1VS-_s/edit?usp=sharing">Presentation</a>
-
-</p> </h1>
-
-<p style="font-size:16px">
-
-</p>
+## Title and Author
+- **Title** : Fake News Detection
+- **Author** : Rutuja Karad
+- **Semester** : Fall 2023
+- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+  
+  <a href="https://github.com/RUTUJA8599">Github</a><br>
+  <a href="https://www.linkedin.com/in/rutuja-karad/">LinkedIn</a><br>
+  <a href="https://www.youtube.com/channel/UCy_nRgyLsoAWP6w29-_n7zg">YouTube</a><br>
+  <a href="https://docs.google.com/presentation/d/1OhL_sn4j4BHtAmBepcAW6N8YUbZaW_Hro7BVr1VS-_s/edit?usp=sharing">Presentation</a>
 
 ## 1. Background:
 
