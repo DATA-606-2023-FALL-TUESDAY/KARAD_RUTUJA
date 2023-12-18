@@ -221,19 +221,29 @@ Different values of "C" were tested with L2 Penalty. Best values obtained - 10, 
 
 ![gridsearch](https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/assets/144069633/79f799b5-8717-42f2-90cf-0ce9793cc74b)
 
-## 6. Application of the Trained Model
+## 10. Application of the Trained Model
 Streamlit was used to create a web app.Streamlit, a library that facilitates the integration of HTML and Python, was utilized for web app development. This choice streamlined the process of creating a user-friendly interface. The application features a text input field and a submit button, allowing users to input text for analysis. Upon submission, the model processes the input and displays the probability of the text being real or fake. This functionality not only makes the model accessible to users but also provides immediate, interactive feedback on the likelihood of news authenticity, showcasing the practical application of  machine learning model in a real-world setting.
 
 
-## 7. Conclusion
+## 11. Conclusion
 
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
-- Talk about future research direction
+#### 11 a. Summary of Work:
 
+The project focused on developing a system to detect fake news, a critical issue in the digital age. The approach involved training various classifier models, namely Random Forest, Stochastic Gradient Descent, Linear SVM, and Logistic Regression. These models were trained on a dataset with careful consideration of the data split and environment stability, using Google Colab.
+A key finding was the superior performance of Word2Vec embeddings over POS tags across all classifiers, emphasizing the importance of rich semantic information for the task. Logistic Regression and Random Forest models, in particular, demonstrated high F1 scores and computational efficiency when trained with Word2Vec embeddings.
+The potential applications of this work are vast, especially in the fields of media, online content regulation, and social media platforms, where accurate detection of fake news is crucial for maintaining informational integrity.
 
+#### 11 b. Limitations:
 
+While the study achieved significant results, there are inherent limitations. The reliance on Word2Vec embeddings, while effective, might limit the system's ability to adapt to new forms of fake news that deviate significantly from the training data. Additionally, the computational resources required for training and maintaining such models could be substantial, especially when scaled up for real-world applications.
+
+#### 11 c. Lessons Learned:
+
+The project underscored the importance of selecting appropriate models and embeddings for text classification tasks. It also highlighted the need to balance precision and recall, particularly in scenarios with class imbalances, through the use of metrics like the F1 score. The research process also demonstrated the value of a stable and versatile development environment.
+
+#### 11 d. Future Research:
+
+Future research could explore the integration of more dynamic and adaptable language models, like transformer-based models, to keep up with evolving fake news strategies. Additionally, investigating methods to reduce the computational demands without sacrificing performance would be beneficial for practical applications. There is also a scope for broadening the dataset to include more diverse and nuanced examples of fake news, further enhancing the model's accuracy and reliability. The web app can be extended to include web-scraping funtionality to allow user to directly input links to the articles instead of pasting the whole article content.
 
 ## 10. References
 
