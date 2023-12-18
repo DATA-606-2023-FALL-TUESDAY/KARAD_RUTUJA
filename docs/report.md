@@ -8,7 +8,7 @@
   
   <a href="https://github.com/RUTUJA8599">Github</a><br>
   <a href="https://www.linkedin.com/in/rutuja-karad/">LinkedIn</a><br>
-  <a href="https://youtube/naDmZWVk2JY">YouTube</a><br>
+  <a href="https://www.youtube.com/watch?v=naDmZWVk2JY&ab_channel=RutujaKarad">YouTube</a><br>
   <a href="https://github.com/DATA-606-2023-FALL-TUESDAY/KARAD_RUTUJA/blob/main/docs/FINAL_CAPSTONE_PPT.pdf">Presentation</a>
 
 ## 1. Background:
